@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.parent-div{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.text{
+  position: absolute;
+  border: 1px solid rgb(192, 185, 185);
+  z-index: 100;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffff;
+  font-family:"poppins";
+  font-size: 5vw;
+  margin-top: 20%;
+  font-weight: 300;
+  width: 100vw;
+  overflow: hidden;
+
+}
+.round-ball{
+  height: 3em;
+  width: 3em;
+  background-color: rgb(197, 181, 181);
+  border-radius: 50%;
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ffffff;
+}
+.round-ball i{
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.466);
+}
+.upperImgPart{
+  background-image: url("./asserts/ai_with_human_black&White.jpg");
+  background-size: 100vw;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 90vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 3px solid white;
+}
+.lowerImgPart{
+  background-image: url("./asserts/ai_with_human.jpg");
+  background-size: 100vw;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100vw;
+}
